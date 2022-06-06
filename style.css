@@ -107,6 +107,7 @@ main{
     border-radius: 10px;
     overflow: hidden;
     box-shadow: rgba(84, 84, 84, 0.24) 0px 3px 8px;
+    cursor: pointer;
 }
 
 .gmailIcon{
@@ -181,4 +182,5 @@ main{
 
 .button{
     border-radius: 8px;
+    cursor: pointer;
 }
