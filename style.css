@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body, html{
+    height: 100%;
+    width: 100%;
+}
+
+.wrapper{
+    height: 100%;
+    width: 100%;
+}
+
+header{
+    height: 8%;
+    width: 100%;
+    padding: 0px 50px;
+    background-color: rgb(147, 163, 163);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar{
+    width: 50%;
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+main{
+    height: 92%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainForm{
+    display: flex;
+    flex-direction: column;
+}
