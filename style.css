@@ -6,6 +6,7 @@
 body, html{
     height: 100%;
     width: 100%;
+    font-family: 'Work Sans', sans-serif;
 }
 
 .wrapper{
@@ -17,10 +18,30 @@ header{
     height: 8%;
     width: 100%;
     padding: 0px 50px;
-    background-color: rgb(147, 163, 163);
     display: flex;
     justify-content: space-around;
     align-items: center;
+    box-shadow: rgba(218, 218, 218, 0.3) 0px 1px 2px 0px, rgba(203, 203, 203, 0.15) 0px 1px 3px 1px;
+
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logoIcon{
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 4px;
+    background-color: rgb(143, 25, 169);
+    font-weight: 600;
+    color: white;
 }
 
 .navbar{
@@ -33,15 +54,131 @@ header{
     list-style: none;
 }
 
+.headerButton{
+    height: 40px;
+    width: 120px;
+    background-color: white;
+    border: 3px solid rgb(181, 80, 203);
+}
+
 main{
     height: 92%;
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainWrapper{
+    height: 68%;
+    width: 75%;
+    padding: 0px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainLeft, .mainRight{
+    height: 100%;
+}
+
+.mainLeft{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.mainHeading{
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+.mainDisc{
+    margin-bottom: 15px;
+}
+
+.mainGmail{
+    height: 15%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: rgba(84, 84, 84, 0.24) 0px 3px 8px;
+}
+
+.gmailIcon{
+    height: 30px;
+    width: 40px;
+    margin: 0px 20px 0px 0px;
+    border-radius: 5px;
+    background-color: rgb(242, 234, 247);
+    color: rgb(112, 112, 112);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.gmailLink{
+    color: rgb(145, 20, 172);
+}
+
+.mainRight{
+    width: 45%;    
+}
+
 .mainForm{
+    height: 100%;
+    width: 100%;
+    padding: 30px;
     display: flex;
     flex-direction: column;
+    border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.message{
+    margin-bottom: 20px;
+}
+
+.inputField{
+    height: 30px;
+    padding: 15px;
+    margin: 10px 0px;
+    background-color: rgb(245, 233, 252);
+    border: none;
+    border-radius: 5px;   
+}
+
+.inputField::placeholder{
+    color: rgb(136, 136, 136);
+}
+
+.inputField:focus{
+    outline: 2px solid rgb(145, 20, 172);
+}
+
+.label{
+    margin: 15px 0px;
+}
+
+.subjectMore{
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(245, 233, 252);
+    resize: none;
+}
+
+.formButton{
+    height: 40px;
+    width: 40%;
+    margin: 20px 0px;
+    background-color: rgb(145, 20, 172);
+    color: white;
+}
+
+.button{
+    border-radius: 8px;
 }
